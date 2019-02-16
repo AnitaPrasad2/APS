@@ -1,0 +1,8 @@
+Binomial Coefficient
+* this can be implemented in 3 ways those are
+1. 2 dimensional array :
+   consume n rows and k number of columns. Space : O(n*k) 
+2. Recursive Method :
+   This is not suitable when there is multiple loop computations are require.  
+3. 1 dimensional array:
+consume 1 row k columns. Space : O(k)
