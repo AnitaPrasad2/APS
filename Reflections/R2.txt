@@ -1,12 +1,17 @@
-* comparision of space and time complexity between Lookup table technique, Sqrt decomposition and segment tree
+* comparision of space and time complexity between Lookup table technique, Square root decomposition and segment tree
 
 1.Lookup table technique: 
-    Space and time requirre to generate lookup table is O(n^2). 
+    Space and time require to generate lookup table is O(n^2). 
     Time require to fetch data at best case is O(1) and at worst case is O(n).
     
 2.SegmentTree :
     This is a bottom up binary tree. Suits only when values are static.
-    Time complexity is O(log n) and space complexity is O(n).
-       
-3.Sqrt Decomposition : 
+    Time complexity to access data is O(log n).
+    Space complexity is O(n).
+      
+3.Square root Decomposition : 
+    Space complexity is O(n).
+    Time complexity is O(n).
     Access time complexity is O(sqrt n).
+    
+   
